@@ -2,8 +2,8 @@
 ## Leveraging Data-Driven Insights to Enhance Employee Retention and Reduce Attrition using Machine Learning Algorithms 
 ### Issue:
 Salifort Motors has been experiencing higher-than-expected employee turnover rates, leading to increased recruitment costs and reduced organizational efficiency. Understanding the drivers of employee attrition is critical for developing strategies that improve retention and overall workplace satisfaction.
-### Response:
-To address this challenge, a comprehensive Exploratory Data Analysis (EDA) was conducted to identify trends and drivers of employee turnover, then a machine learning predictive model was developed using employee data to identify key factors contributing to employee turnover. By understanding these patterns, the company can proactively intervene to retain valuable talent, improve job satisfaction, and reduce turnover.
+### Project Overview:
+To address this challenge, using employee survey data provided by the company, a comprehensive Exploratory Data Analysis (EDA) was conducted to identify trends and drivers of employee turnover, then a machine learning predictive model was developed using employee data to identify key factors contributing to employee turnover.
 ### Impact:
 Implementing the predictive model will enable the company to:
 - Identify at-risk employees and intervene early.
@@ -12,7 +12,11 @@ Implementing the predictive model will enable the company to:
 
 
 ### Conclusion
-The model effectively identifies key factors contributing to employee turnover and provides actionable insights to improve retention. The high performance metrics indicate that the model is reliable for making data-driven decisions.
+The model effectively identifies key factors contributing to employee turnover and provides actionable insights to improve retention. The below plot shows that tenure,  satisfaction, number of projects, and evaluation were the Top 4 most important factors in determining a which employees would quit. The overall XGBoost model achieved very good metrics with an F1 score of 96.25%, a recall of 93.38%, a precision of 99.30%, and an accuracy of 98.69%
+
+The champion model (XGBoost) effectively identifies key factors contributing to employee turnover, offering actionable insights for improved retention. As visualized in the plot below, tenure, satisfaction, number of projects, and evaluation emerged as the Top 4 most influential factors in predicting employee attrition. The model demonstrated strong performance, achieving an F1 score of 96.25%, recall of 93.38%, precision of 99.30%, and an accuracy of 98.69%. These metrics underscore the model's capability in accurately identifying employees at risk of leaving, enabling organizations to proactively address retention challenges.
+
+![feature_importances](https://github.com/user-attachments/assets/e2f838c6-fec7-425e-8bd9-5f628d2be75f)
 
 ### Recommendations
 1. **Focus on Improving Job Satisfaction**: Regular surveys and recognition programs can help identify and address dissatisfaction, especially between mid-tenure employees.
